@@ -23,11 +23,30 @@ fun main() {
     //    val operacoes = Operacoes();
     //    operacoes.run();
 
-    //    val ifElse = IfElse();
-    //    ifElse.run();
+    //        val ifElse = IfElse();
+    //        ifElse.run();
 
-    val ternario = Ternario();
-    ternario.run();
+    //    val ternario = Ternario();
+    //    ternario.run();
+
+    //    val operadorElvis = OperadorElvis();
+    //    operadorElvis.run();
+
+    //    val whenInstance = When();
+    //    whenInstance.run();
+
+    //    val forInstance = For();
+    //    forInstance.run();
+
+    //    val whileInstance = While();
+    //    whileInstance.run();
+
+    //    val conversaoDeValores = ConversaoDeValores();
+    //    conversaoDeValores.run();
+
+    val excecoes = Excecoes();
+    excecoes.run();
+    
 }
 
 fun imprimirHelloWorld() {
