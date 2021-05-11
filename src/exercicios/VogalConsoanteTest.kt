@@ -23,4 +23,8 @@ class VogalConsoanteTest {
         Assertions.assertEquals(10, vogalConsoante.contarConsoantes("Rodrigo Dias Noronha"));
     }
 
+    @Test
+    fun contarVogaisComFilter() {
+        Assertions.assertEquals(8, vogalConsoante.contarVogaisComFilter("Minha frase com vogais"))
+    }
 }

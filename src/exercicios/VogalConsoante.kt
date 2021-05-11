@@ -52,4 +52,8 @@ class VogalConsoante {
 
         return count;
     }
+
+    fun contarVogaisComFilter(str: String): Int {
+        return str.filter { this.vogais.contains(it.toLowerCase()) }.count();
+    }
 }
