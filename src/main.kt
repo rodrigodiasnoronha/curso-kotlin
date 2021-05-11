@@ -1,58 +1,66 @@
-// A função main é o ponto de entrada de todo projeto Kotlin, a primeira funçao a ser lida pelo programa.
+import basic.*
+
+// A funtoo main é o ponto de entrada de todo projeto Kotlin, a primeira funçao a ser lida pelo programa.
 fun main() {
     // imprimirHelloWorld();
 
-    // val variaveis = Variaveis();
+    // val variaveis = basic.Variaveis();
     // variaveis.run();
 
-    // val tiposDeDados = TiposDeDados();
+    // val tiposDeDados = basic.TiposDeDados();
     // tiposDeDados.run();
 
-    //    val variaveisMutaveisImutaveis = VariaveisMutaveisImutaveis();
+    //    val variaveisMutaveisImutaveis = basic.VariaveisMutaveisImutaveis();
     //    variaveisMutaveisImutaveis.run();
 
-    // val formatacaoString = FormatacaoString();
+    // val formatacaoString = basic.FormatacaoString();
     // formatacaoString.run();
 
-    //    val criacaoDeFuncaoKotlin = CriacaoDeFuncaoKotlin();
+    //    val criacaoDeFuncaoKotlin = basic.CriacaoDeFuncaoKotlin();
     //    criacaoDeFuncaoKotlin.run();
 
-    //    val funcaoEmUmaUnicaLinha = FuncaoEmUmaUnicaLinha();
+    //    val funcaoEmUmaUnicaLinha = basic.FuncaoEmUmaUnicaLinha();
     //    funcaoEmUmaUnicaLinha.run();
 
-    //    val operacoes = Operacoes();
+    //    val operacoes = basic.Operacoes();
     //    operacoes.run();
 
-    //        val ifElse = IfElse();
+    //        val ifElse = basic.IfElse();
     //        ifElse.run();
 
-    //    val ternario = Ternario();
+    //    val ternario = basic.Ternario();
     //    ternario.run();
 
-    //    val operadorElvis = OperadorElvis();
+    //    val operadorElvis = basic.OperadorElvis();
     //    operadorElvis.run();
 
-    //    val whenInstance = When();
+    //    val whenInstance = basic.When();
     //    whenInstance.run();
 
-    //    val forInstance = For();
+    //    val forInstance = basic.For();
     //    forInstance.run();
 
-    //    val whileInstance = While();
+    //    val whileInstance = basic.While();
     //    whileInstance.run();
 
-    //    val conversaoDeValores = ConversaoDeValores();
+    //    val conversaoDeValores = basic.ConversaoDeValores();
     //    conversaoDeValores.run();
 
-    val excecoes = Excecoes();
-    excecoes.run();
-    
+    //    val excecoes = basic.Excecoes();
+    //    excecoes.run();
+
+    //    val d = Debug();
+    //    d.run();
+
+    val maisSobreFuncao = MaisSobreFuncao();
+    maisSobreFuncao.run();
 }
 
-fun imprimirHelloWorld() {
-    val hello = "Hello";
-    val world = "World";
 
-    println("$hello, $world");
-}
-
+//fun imprimirHelloWorld() {
+//    val hello = "Hello";
+//    val world = "World";
+//
+//    println("$hello, $world");
+//}
+//
